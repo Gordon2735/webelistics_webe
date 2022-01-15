@@ -37,8 +37,10 @@
     "eslint": "^8.6.0",
     "eslint-plugin-html": "^6.2.0",
     "gulp": "^4.0.2",
+    "lighthouse": "^9.2.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
-    "open": "^8.4.0"
+    "open": "^8.4.0",
+    "yargs": "^7.1.2"
   }
 }

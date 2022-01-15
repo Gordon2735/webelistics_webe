@@ -1,78 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /** PLAN to have Light/Dark Mode  **/
 html {
-	background: #222222;
+  background: #222222;
 }
 
 body .header {
-	margin: 0 0 1rem 0;
-	padding: 0.5rem;
-	display: flex;
-	flex-wrap: nowrap;
-	flex-grow: 1;
-	width: 100vw;
-	max-height: 19vh;
-	min-height: 17vh;
-	border-top: 0.7rem solid #eb912a;
-	border-bottom: 0.7rem solid #eb912a;
-	justify-content: center;
-	overflow: hidden;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  width: 100vw;
+  max-height: 19vh;
+  min-height: 17vh;
+  border-top: 0.7rem solid #eb912a;
+  border-bottom: 0.7rem solid #eb912a;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .header .header-image {
-	display: inside;
-	position: absolute;
-	left: 1rem;
-	padding-left: 0.5rem;
-	max-height: 112px;
-	max-width: 140px;
-	width: auto;
-	height: auto;
-	object-fit: cover;
-	overflow: hidden;
-
-	/* aspect-ratio: 5 / 4; */
+  display: inside;
+  position: absolute;
+  left: 1rem;
+  padding-left: 0.5rem;
+  max-height: 112px;
+  max-width: 140px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  /* aspect-ratio: 5 / 4; */
 }
 
-#h1-header {
-	display: flex;
-	font-family: 'Chango', cursive;
-	font-size: 4vw;
-	/* --minFontSize: 8.5rem;
-  --maxFontSize: 17.5rem;
-  --scaler: 15rem;
-  font-size: clamp(var(--maxFontSize) var(__scaler) var(--minFontSize));*/
-	text-shadow: #5c5c5c 3px 6px 5px;
-	text-align: center;
-	color: #b3b3b3;
+.header .h1-header {
+  display: flex;
+  font-family: "Chango", cursive;
+  font-size: 4vw;
+  text-shadow: #5c5c5c 3px 6px 5px;
+  text-align: center;
+  color: #b3b3b3;
 }
 
-.h3-home {
-	color: #b3b3b3;
-	font-family: 'Days One';
-	font-size: 2vh;
+.header .h1-header .h1-header-sup {
+  font-size: 1.6vw;
+  color: #eb912a;
+  text-shadow: #5c5c5c 3px 3px 2px;
 }
 
 .hoot-container {
-
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  width: 100vw;
+  max-height: 19vh;
+  min-height: 17vh;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.hoot-container .hoot-title {
-	font-family: 'Qwitcher Grypen', cursive;
-	font-size: 3.5vw;
-	text-shadow: #5c5c5c 3px 6px 5px;
-	color: rgb(179, 179, 179);
+.hoot-container .h2-home {
+  color: #b3b3b3;
+  font-family: "Days One";
+  font-size: 2vh;
+  text-shadow: #5c5c5c 2px 3px 2px;
 }
 
-.hoot-container .hoot-title:hover {
-	color: #eb912a;
+.hoot-container .h2-home:hover {
+  color: #eb912a;
+  text-shadow: #eccca8 3px 1px 7px;
+}
+
+.hoot-container .h2-home .h2-home-sup {
+  font-size: 1.2vw;
+  color: #eb912a;
+}
+
+.hoot-container .h2-home .h2-home-sup:hover {
+  font-size: 2.2vw;
+  color: #b3b3b3;
 }

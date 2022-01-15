@@ -16,6 +16,7 @@
 <!--*   7.  COM w/Trello/Site_Checklists  -->
 <!--*   8.  Research HOOT characteristics  -->
 <!--*   9.  Install Gulp & Implement JEST TDD & Testing  -->
+<!--*   10. Maintain an "IN_PROGRESS" 'Lighthouse Report' -->
 
 <!--todo ::::::::::::::::::::::::::::::::::::::::::::::::  -->
 
