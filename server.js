@@ -70,13 +70,12 @@ class MyEmitter extends EventEmitter {}
 const myEmitter = new MyEmitter();
 // adds listener for the log event
 myEmitter.on('log', (msg, morgan) => {
-  logEvents(msg, morgan);
+  logEvents(msg);
 });
 setTimeout(() => {
   // emit events
   myEmitter.emit('log', 'Nodemon Server Log event emitted');
 }, 2000);
 
-export default app;
 
 

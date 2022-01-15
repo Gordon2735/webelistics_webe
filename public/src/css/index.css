@@ -61,3 +61,18 @@ body .header {
 	font-family: 'Days One';
 	font-size: 2vh;
 }
+
+.hoot-container {
+
+}
+
+.hoot-container .hoot-title {
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 3.5vw;
+	text-shadow: #5c5c5c 3px 6px 5px;
+	color: rgb(179, 179, 179);
+}
+
+.hoot-container .hoot-title:hover {
+	color: #eb912a;
+}
