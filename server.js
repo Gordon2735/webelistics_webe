@@ -66,13 +66,13 @@ const openChrome = async () => {
 openChrome();
 
 //% logEvent Logic
-class MyEmitter extends EventEmitter {}
-const myEmitter = new MyEmitter();
-myEmitter.on("log", (msg, morgan) => {
-  logEvents(msg);
+class TrackEmitter extends EventEmitter {}
+const trackEmitter = new TrackEmitter();
+trackEmitter.on("log", (message) => {
+  logEvents(message);
 });
 setTimeout(() => {
-  myEmitter.emit("log", "Nodemon Server Log event emitted");
+  trackEmitter.emit("log", "Nodemon Server Log event emitted");
 }, 2000);
 
 //% Create a write stream (in append mode)(morgan)
@@ -82,5 +82,5 @@ const accessLogStream = fs.createWriteStream(
 );
 app.use(morgan("combined", { stream: accessLogStream }));
 app.get("/", (req, res) => {
-  res.send("hello there world");
+  res.send("HOOT Webelistics Logger Tracker");
 });

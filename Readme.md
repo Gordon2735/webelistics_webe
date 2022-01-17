@@ -48,6 +48,7 @@ ref: keeping these installs as single-line instructions for documentational purp
 <!--?   21. npm install -g eslint  -->
 <!--?   22. npm i -g eslint-config-prettier  -->
 <!--?   23. npm install --save-dev eslint-plugin-html  -->
+<!--?   24. npm install gulp-jest jest  -->
 
 <!--! npm rm --global gulp  -->
 
