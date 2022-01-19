@@ -1,107 +1,121 @@
-@import url("https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /** PLAN to have Light/Dark Mode  **/
 html {
-  background: #222222;
+	background: #222222;
 }
 
 .header {
-  margin: 0 0 1rem 0;
-  padding: 0.5rem;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-grow: 1;
-  max-width: 100vw;
-  max-height: 20vh;
-  min-height: 15vh;
-  border-top: 0.7rem solid #eb912a;
-  border-bottom: 0.7rem solid #eb912a;
-  text-align: center;
-  justify-content: left;
-  align-items: center;
-  overflow: hidden;
-  object-fit: contain;
+	margin: 0 0 1rem 0;
+	padding: 0.5rem;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	max-width: 100vw;
+	max-height: 20vh;
+	min-height: 15vh;
+	border-top: 0.7rem solid #eb912a;
+	border-bottom: 0.7rem solid #eb912a;
+	text-align: center;
+	justify-content: left;
+	align-items: center;
+	overflow: hidden;
+	object-fit: contain;
 }
 
 .header .logo-container {
-  display: flex;
-  left: 0;
-  position: relative;
-  width: 13vw;
-  min-width: 10vw;
-  height: 10vw;
-  min-height: 15vh;
+	margin-right: 1rem;
+	display: flex;
+	left: 0;
+	position: relative;
+	width: 13vw;
+	min-width: 10vw;
+	height: 10vw;
+	min-height: 15vh;
 }
 
 .header .logo-header .header-image {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
-.header .h1-hoot {
-  margin: 0 0 0 auto;
-  display: flex;
-  font-family: "Chango", cursive;
-  font-size: 5.5vw;
-  text-shadow: #5c5c5c 3px 6px 5px;
-  text-align: center;
-  color: #eb912a;
+.header #h1-container {
+	margin: 1rem 0 0 2rem;
+	padding: 0.5rem;
+	display: flex;
+	max-width: 100vw;
+	height: auto;
+	background-color: cadetblue;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
 }
 
-.header .h1-header {
-  margin: 0 auto 0 0;
-  padding-top: 1.9rem;
-  display: flex;
-  font-family: "Days One", sans-serif;
-  font-size: 4vw;
-  text-shadow: #5c5c5c 3px 6px 4px;
-  text-align: center;
-  color: #b3b3b3;
-  letter-spacing: 0.8rem;
+#h1-container .h1-hoot {
+	margin-bottom: 1rem;
+	position: relative;
+	font-family: 'Chango', cursive;
+	font-size: 5.5vw;
+	text-shadow: #5c5c5c 3px 6px 5px;
+	text-align: center;
+	color: #eb912a;
 }
 
-.header .h1-header .h1-header-sup {
-  font-size: 1.022vw;
-  color: #eb912a;
-  text-shadow: #5c5c5c 3px 3px 2px;
+#h1-container .h1-header {
+	margin-top: 0.5rem;
+	padding-top: 1.9rem;
+	position: relative;
+	font-family: 'Days One', sans-serif;
+	font-size: 1.5vw;
+	text-shadow: #5c5c5c 3px 6px 4px;
+	text-align: center;
+	color: #b3b3b3;
+	letter-spacing: 0.8rem;
+}
+
+#h1-container .h1-header .h1-header-sup {
+	font-size: 1.022vw;
+	color: #eb912a;
+	text-shadow: #5c5c5c 3px 3px 2px;
 }
 
 .hoot-container {
-  margin: 0 0 0 1rem;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-grow: 1;
-  width: 100vw;
-  max-height: 19vh;
-  min-height: 17vh;
-  justify-content: left;
-  overflow: hidden;
+	margin: 0 0 0 1rem;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-grow: 1;
+	width: 100vw;
+	max-height: 19vh;
+	min-height: 17vh;
+	justify-content: left;
+	overflow: hidden;
 }
 
 .hoot-container .h2-home {
-  color: #b3b3b3;
-  font-family: "Days One";
-  font-size: 2vh;
+	color: #b3b3b3;
+	font-family: 'Days One';
+	font-size: 2vh;
 }
 
 .hoot-container .h2-home:hover {
-  color: #eb912a;
+	color: #eb912a;
 }
 
 .hoot-container .h2-home .h2-home-sup {
-  font-size: 0.5vw;
-  color: #eb912a;
+	font-size: 0.5vw;
+	color: #eb912a;
 }
 
 .hoot-container .h2-home .h2-home-sup:hover {
-  font-size: 2.2vw;
-  color: #b3b3b3;
+	font-size: 2.2vw;
+	color: #b3b3b3;
 }

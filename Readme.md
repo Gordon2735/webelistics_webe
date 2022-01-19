@@ -49,7 +49,14 @@ ref: keeping these installs as single-line instructions for documentational purp
 <!--?   22. npm i -g eslint-config-prettier  -->
 <!--?   23. npm install --save-dev eslint-plugin-html  -->
 <!--?   24. npm install gulp-jest jest  -->
+<!--?   25. npm i -G gulp-cli  -->
+<!--?   26. npm i gulp-babel -D  -->
+<!--?   27. npm i -D gulp-load-plugins     -->
+<!--?   28. npm update -g npm  -->
+<!--~   27. npm rm gulp  -->
+<!--~   26. npm rm gulp-cli gulp-jest gulp-babel             gulp-load-plugins  -->
 
+<!--@ Decided to use NPM SCRIPTS. It can handle the transpiling of ES6 Modules through Babel without a bunch of configuration hassle and Module-Common JS-AMD-ES5 head butting!! I can systematically run application TESTING and Executing multiple scripts sliently or loudly; reference scripts from files, create logs and pass arguments along with referencing environment variables, applying Naming conventions. I was considering ROLLUP, but i'm going to see how far I can ROLL with NPM SCRIPTS which can also direct UGLIFICATION and MINIFICATION!! WOW!!!! All this without adding more baggage to my "ALREADY" HuGe DEPENDANCIES allocations! -->
 <!--! npm rm --global gulp  -->
 
 <!--! FYI -- Gulp-Babel-Jest-ES6_Modules -- FYI  -->

@@ -1,47 +1,46 @@
 {
-  "name": "webelistics_webe",
-  "version": "1.0.0",
-  "description": "HOOT Webelistic's Main Website Application Development ",
-  "main": "server.js",
-  "type": "module",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "jest",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "author": "Gordon R Mullen Jr",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "date-fns": "^2.28.0",
-    "express": "^4.17.2",
-    "express-handlebars": "^6.0.2",
-    "gulp-jest": "^4.0.4",
-    "jest": "^27.4.7",
-    "mongoose": "^6.1.5",
-    "path": "^0.12.7",
-    "serve-favicon": "^2.5.0",
-    "uuid": "^8.3.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.16.7",
-    "@babel/core": "^7.16.7",
-    "@babel/node": "^7.16.7",
-    "@babel/preset-env": "^7.16.7",
-    "@babel/register": "^7.16.7",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^27.4.6",
-    "dotenv": "^11.0.0",
-    "eslint": "^8.6.0",
-    "eslint-plugin-html": "^6.2.0",
-    "gulp": "^4.0.2",
-    "lighthouse": "^9.2.0",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.15",
-    "open": "^8.4.0",
-    "yargs": "^7.1.2"
-  }
+	"name": "webelistics_webe",
+	"version": "1.0.0",
+	"description": "HOOT Webelistic's Main Website Application Development ",
+	"main": "server.js",
+	"type": "module",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "jest",
+		"start": "node server.js",
+		"dev": "nodemon server.js",
+		"hello-world": "echo \"HOOT Webelistics ~ Web Application Development\""
+	},
+	"author": "Gordon R Mullen Jr",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"date-fns": "^2.28.0",
+		"express": "^4.17.2",
+		"express-handlebars": "^6.0.2",
+		"jest": "^27.4.7",
+		"mongoose": "^6.1.5",
+		"path": "^0.12.7",
+		"serve-favicon": "^2.5.0",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.16.7",
+		"@babel/core": "^7.16.7",
+		"@babel/node": "^7.16.7",
+		"@babel/preset-env": "^7.16.7",
+		"@babel/register": "^7.16.7",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-jest": "^27.4.6",
+		"dotenv": "^11.0.0",
+		"eslint": "^8.6.0",
+		"eslint-plugin-html": "^6.2.0",
+		"lighthouse": "^9.2.0",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.15",
+		"open": "^8.4.0",
+		"yargs": "^7.1.2"
+	}
 }

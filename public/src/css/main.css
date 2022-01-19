@@ -1,0 +1,32 @@
+:root {
+	--clr-primary-bckgrd: 0, 0%, 13%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: hls(var(--clr-primary-bckgrd));
+}
+
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+.body {
+	display: grid;
+	grid-template-areas:
+		'header header header'
+		'sidebar main main'
+		'footer';
+	background-color: lightgrey;
+}
+
+.header {
+	grid-area: header;
+}
